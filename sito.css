@@ -1,460 +1,383 @@
-<!DOCTYPE html>
-<html lang="it">
+.background{
+  background-image:
+url("https://www.mmdesign.eu/ir/w1536/filemanager/files/slide/What_product_2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.cerchio {
+  border: 3px #FFD600;
+  height: 90px;
+  width: 90px;
+  background-color: solid black;
+  border-radius: 100%;
+  margin: auto;
+  margin-top:10px;
+}
+#icon{
+  width:auto;
+  margin:center;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sito ACME</title>
+
+ .banda{
+   position:fixed;
+   margin:0%;
+   heigth:auto;
+   background-color:black;
+   width:100%;
+   color:white;
+   border-bottom:3px solid yellow;
+   opacity:0.8;
+}
+.bandiere {
+  float: center;
+  width: 50px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: auto;
+  border-radius: 2px;
+  margin-top:20px;
   
-  <link href="sito.css" rel="stylesheet">
-  <script src="index.js"></script>
+  
+  
+}
+.info {
+  color: hsl(0, 100%, 50%);
+  font-size: 25px;
+  margin-left:200px;
 
+}
+
+.scritta{
+  margin-left:400px;
+  margin-top:-40px;
+}
+#top{
+  border:4px solid black;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  width:40px;
+  background-color:white;
+  border-radius:100%;
+  color:black;
+  width:50px;
+  height:50px;
+  text-align:center;
+  cursor: pointer;
+} 
 
   
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+#box1{
+  background-color: black;
+
+  border:1px solid yellow;
+  margin:auto;
+  color:white;
+  border-radius:20px;
+  text:center;
+  
+  max-width:900px
+}
+.titolo{
+  text-align:center;
+  font-family:Arial;
+}
+.paragrafo{
+  text-align:center;
+  font-family:Helvetica;
+}
+#box2{
+  background-color: #C62828;
+  
+  border:1px solid yellow;
+  margin:auto;
+  color:white;
+  border-radius:20px;
+  text:center;
+  max-width:900px
+}
+.paragrafo{
+  text-align:center;
+  font-family:Helvetica;
+}
+
+#box3{
+  margin:auto;
+  padding:30px;
+  border: 1px solid black;
+  background-color: #FFD600;
+
+  color: black;
+  max-width:1400px;
+  border-radius:30px;
+
+  
+}
+
+.titoletto{
+  text-align:center;
+  font-family:Arial;
+}
+.titolettino{
+  text-align:center;
+  font-family:Arial;
+  
+}
+
+#box4{
+  border: 1px solid black;
+  margin:auto;
+  padding:30px;
+  
+  background-color: black;
+  color: white;
+  max-width:1400px;
+  border-radius:30px;
+
+}
+#video{
+  margin:auto;
+  margin-left:50px;
+  margin-top:20px;
+}
+#welcome{
+  text-align:center;
+}
+.titolettino{
+  text-align:center;
+}
+#box5{
+  border: 1px solid black;
+  margin-left:140px;
+  padding:30px;
+  background-color:#212121;
+  color: white;
+  height:380px;
+
+  max-width:700px;
+  border-radius:30px;
+  background-image:
+    url(https://www.sceproject.it/wp-content/uploads/2018/10/PA00.jpg);
+  background-repeat: no-repeat;
+
+  background-size: 190%;
+}
+.titolettinetto{
+  text-color:#D32F2F
+}
+.dipartimento {
+  padding-top: 3%;
+  min-height: 100%;
+  text-align: center;
+  background-color: hsl(0, 70%, 50%);
+  border-radius: 20px;
+  margin-left:40px;
+  margin-top:20px;
+  max-width:auto;
+  
+}
+#frase {
+  float: center;
+  text-align: auto;
+  margin-top: 30px;
+  font-size: 30pt;
+  text-align:right;
+  color:black;
+}
+
+
+#box9{
+  border: 1px solid black;
+  margin:auto;
+
+
+  padding:30px;
+  background-color: black;
+  color: white;
+  height:380px;
+  margin-left:140px;
+  
  
-</head>
-<body class="background"> 
-  
-  <div class="banda">
-   
-      <img class="bandiere" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Italy_%28Pantone%2C_2003%E2%80%932006%29.svg/220px-Flag_of_Italy_%28Pantone%2C_2003%E2%80%932006%29.svg.png">
-
-      <img class="bandiere" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/200px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png">
-      <img class="bandiere" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png">
-     <p class="scritta ">ACME<br>ACCADEMIA DI BELLE ARTI</p>
-    
-  </div>
-  
-    
-    <div id="mainBody">
-     
-      
-    <div id="top" onclick="scrollToTop();">
-      <svg id="top" viewBox="0 0 320 512" width="100">
-       <path d="M177 255.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 351.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 425.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1zm-34-192L7 199.7c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l96.4-96.4 96.4 96.4c9.4 9.4 24.6 9.4 33.9 0l22.6-22.6c9.4-9.4 9.4-24.6 0-33.9l-136-136c-9.2-9.4-24.4-9.4-33.8 0z" />
-</svg>
-    </div>
-
-      </div>
-    </div>
+background-image:
+  url(
+https://tse4.mm.bing.net/th?id=OIP.eX6KBDzaH_OcHT7Szk_2UQHaEK&pid=Api&P=0&w=380&h=213);
+  background-repeat: no-repeat;
  
-        
+  background-size: 100%;
   
-      
-        
-                                                           
-                                                      
-
-<br> 
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      
-
-      <div id="box1">
-        <h1 class="titolo"> OPEN DAY ONLINE</h1>
-        <p class="paragrafo"> Tutte le informazioni per conoscere l'accademia di Belle Arti ACME</p>
-        
-      </div>
-      <br>
-      
-      
-       <div id="box2">
-        <h1 class="titolo"> OPEN DAY INTERATTIVO</h1>
-        <p class="paragrafo"> Clicca qui per iscriverti alla presentazione online </p>
-       </div>
-      <br>
-      <br>
-       <br>
-      <br>
-      
- <div id="box3" class="container mt-5">
-
-    <div class="row">
-      
-      <div class="col-sm-4">
- 
   
-         <div class="cerchio">
-          <span class="material-symbols-rounded">
-            <svg viewBox="0 0 576 512" max-width="70" margin-left="60px" title="address-card">
-  <path d="M528 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-352 96c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zm112 236.8c0 10.6-10 19.2-22.4 19.2H86.4C74 384 64 375.4 64 364.8v-19.2c0-31.8 30.1-57.6 67.2-57.6h5c12.3 5.1 25.7 8 39.8 8s27.6-2.9 39.8-8h5c37.1 0 67.2 25.8 67.2 57.6v19.2zM512 312c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-64c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-64c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16z" />
-</svg>
-            
-          </span>
-         </div>
-        
-        <br>
-     
-    
-        
-        <h3 class="titoletto">OFFERTA FORMATIVA</h3>
-        
-        <p class="titolettino">Una formazione globale
-per i professionisti in campo artistico
-e nella comunicazione per immagini
-</p>
-   
-        <a class="info" href="#offerte">info</a>
-      </div>
-      <div class="col-sm-4">
-     
-        <div class="cerchio">
-          <span class="material-symbols-rounded">
-            <svg viewBox="0 0 576 512" width="100" title="archway">
-  <path d="M560 448h-16V96H32v352H16.02c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16H176c8.84 0 16-7.16 16-16V320c0-53.02 42.98-96 96-96s96 42.98 96 96l.02 160v16c0 8.84 7.16 16 16 16H560c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zm0-448H16C7.16 0 0 7.16 0 16v32c0 8.84 7.16 16 16 16h544c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16z" />
-</svg>
-          </span>
-         </div>
-    
+  max-width:700px;
+  border-radius:30px;
+} 
+
+.titolo1{
+  text-align:center;
+  font-size:30px;
+  font-family:italic ;
+  color:white;
+}
   
-        <br> 
-        <h3 class="titoletto">DURATA E TITOLI</h3>
-        <p class="titolettino">I corsi di studio prevedono
-un percorso formativo
-distinto in più cicli
+.titolo2{
+  text-align:center;
+  font-size:50px;
+}
+.titolo3{
+  text-align:center;
+  font-size:20px;
+  font-family:italic;
+}
+#box10{
+  border: 1px solid black;
+  margin-left:px;
+  padding:30px;
+  background-color: black;
+  color: white;
+  height:auto;
+  max-width:1400px;
+  border-radius:30px;
+} 
+.dipartimento {
+  padding-top: 3%;
+  min-height: 100%;
+  text-align: center;
+  background-color:#C62828 ;
+  border-radius: 20px;
+  width:600px;
+  height:200px;
+  margin-top:30px;
+}
+.dipartimento2 {
+  padding-top: 3%;
+  min-height: 100%;
+  text-align: center;
+  background-color:#03A9F4 ;
+  border-radius: 20px;
+  width:600px;
+  height:200px;
+  margin-top:30px;
+  margin-left:15px;
+}
+.dipartimento5 {
+  padding-top: 3%;
+  min-height: 100%;
+  text-align: center;
+  background-color:#FFC400;
+  border-radius: 20px;
+  width:1260px;
+  height:200px;
+  margin-top:30px;
+  margin-left:38px;
+}
+.dipartimento6 {
+  padding-top: 3%;
+  min-height: 100%;
+  text-align: center;
+  background-color:#FF5722;
+  border-radius: 20px;
+  width:350px;
+  height:200px;
+  margin-top:30px;
+  margin-left:40px;
+}
+#box12{
+   margin:auto;
+  padding:30px;
+  border: 1px solid black;
+  background-color: #FFD600;
+height:150px;
+  color: black;
+  max-width:1400px;
+  border-radius:20px;
+}
+.palandri{
+  text-color:solidwhite;
+  margin:center;
+}
+#cookiewindow {
+  position: fixed;
+  bottom: 150px;
+  left: 100px;
+  width: 230px;
+  height: 50px;
+  cursor: pointer;
+}
 
- </p>
-       
-        <a class="info" href="#titoli">info</a>
-      </div>
-      <div class="col-sm-4">
-    <div class="cerchio">
-         <svg viewBox="0 0 384 512" width="70" title="award">
-  <path d="M97.12 362.63c-8.69-8.69-4.16-6.24-25.12-11.85-9.51-2.55-17.87-7.45-25.43-13.32L1.2 448.7c-4.39 10.77 3.81 22.47 15.43 22.03l52.69-2.01L105.56 507c8 8.44 22.04 5.81 26.43-4.96l52.05-127.62c-10.84 6.04-22.87 9.58-35.31 9.58-19.5 0-37.82-7.59-51.61-21.37zM382.8 448.7l-45.37-111.24c-7.56 5.88-15.92 10.77-25.43 13.32-21.07 5.64-16.45 3.18-25.12 11.85-13.79 13.78-32.12 21.37-51.62 21.37-12.44 0-24.47-3.55-35.31-9.58L252 502.04c4.39 10.77 18.44 13.4 26.43 4.96l36.25-38.28 52.69 2.01c11.62.44 19.82-11.27 15.43-22.03zM263 340c15.28-15.55 17.03-14.21 38.79-20.14 13.89-3.79 24.75-14.84 28.47-28.98 7.48-28.4 5.54-24.97 25.95-45.75 10.17-10.35 14.14-25.44 10.42-39.58-7.47-28.38-7.48-24.42 0-52.83 3.72-14.14-.25-29.23-10.42-39.58-20.41-20.78-18.47-17.36-25.95-45.75-3.72-14.14-14.58-25.19-28.47-28.98-27.88-7.61-24.52-5.62-44.95-26.41-10.17-10.35-25-14.4-38.89-10.61-27.87 7.6-23.98 7.61-51.9 0-13.89-3.79-28.72.25-38.89 10.61-20.41 20.78-17.05 18.8-44.94 26.41-13.89 3.79-24.75 14.84-28.47 28.98-7.47 28.39-5.54 24.97-25.95 45.75-10.17 10.35-14.15 25.44-10.42 39.58 7.47 28.36 7.48 24.4 0 52.82-3.72 14.14.25 29.23 10.42 39.59 20.41 20.78 18.47 17.35 25.95 45.75 3.72 14.14 14.58 25.19 28.47 28.98C104.6 325.96 106.27 325 121 340c13.23 13.47 33.84 15.88 49.74 5.82a39.676 39.676 0 0 1 42.53 0c15.89 10.06 36.5 7.65 49.73-5.82zM97.66 175.96c0-53.03 42.24-96.02 94.34-96.02s94.34 42.99 94.34 96.02-42.24 96.02-94.34 96.02-94.34-42.99-94.34-96.02z" />
-</svg>
-    </div>
- 
-         <br>
-        <h3 class="titoletto">BORSE DI STUDIO</h3>
-        <p class="titolettino">Gli studenti ACME beneficiano dei contributi previsti dalla normativa e gestiti dall'Ente regionale preposto</p>
-         <a class="info" href="#borse">info</a>
-      </div>
-   </div>
-      </div>
-      <br>
+#innercookie {
+  color: white;
+  font-size: 10px;
+  background-color: black;
+  padding: 15px;
+  border-radius:20px;
+}
+#perchiudere {
+  font-size: 15px;
+  margin-left: 190px;
+}
+#bottoncino {
+  background-color: #C62828;
+  height: 70px;
+  width: 70px;
+  bottom: 10px;
+  left: 20px;
+  position: fixed;
+  text-align: center;
+  border-radius: 90px;
+  color: white;
+  cursor: pointer;
+}
+#icon {
+  font-size:60px !important;
+  margin-left:-0.7px ;
+  padding-top: 3.7px;
+  height: 60px;
+  margin-top:2px;
+  
+}
+.rett{
+  margin: 10px 0px 30px 0px;
+  border-left: 10px solid hsl(0, 100%, 60%);
+  padding-left: 20px;
+}
 
-      
- <div id="box4" class="container mt-5">
-    <div class="row">
-      <div class="col-sm-6">
-        <h3 class="titolettuccio">Le creatività è la tua professione.</h3>
-        
-        <br>
-         <br>
-        
-         <br>
-         <br>
-        <div id="box7" class="container mt-1" style="border:4px solid #D32F2F; height:60px; width:440px; margin-left: 8px;"> 
-        
-        <h1> WELCOME TO ACME</h1>
-        </div>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <p>Accademia di Belle Arti Acme di Novara è una istituzione di alta formazione artistica.</p>
-        
-      </div>
-      <div class="col-sm-4">
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/-cQk6kK7JVs" title="Presentazione ACME - Accademia di Belle Arti Europea dei Media Milano e Novara" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
- </div>
-   
-      <br>
-     
-  <div id="box5" class="container mt-5">
-    <div class="row">
-      <div class="col-sm-6">
-      <div id="background-image"> 
-        <div id="rettangolo3">
-    <i id="virgolette" class="fa-solid fa-quote-right"></i>
-    <marquee id="frase" hspace="0" scrollamount="10" onmouseover="this.start()" onmouseout="this.stop()"margin="auto"; position:"center"> <i> "Non sprecare il tuo tempo.<br>
-        Crea, agisci, prendi posto ovunque tu sia<br>
-        e diventa qualcuno"</i><br>
-      <b>Teddy Roosevelt</b>
-
-      
-      
-       
-
-    </marquee>
-
-  </div>
-    </div>
-      </div>
-      </div>
-        </div>
-  <br>
-      <br>
-      <br>
- 
-      <div id="box9">
-        <h1 class="titolo1"> UN'AMPIA OFFERTA ARTISTICA</h1>
-        <br>
-        <br>
-        <br>
-        <br>
-         <br>
-        <br>
-      <br>
-     
-        <h1 class="titolo2"> OFFERTA FORMATIVA
-        </h1>
-        
- 
-        <h1 class="titolo3">3 dipartimenti, 6 scuole, 12 indirizzi
-per una moderna e completa formazione
-          nel campo della comunicazione visiva</h1>
-      </div>
-    </div> 
-      </div>
-    </div>
-         </div>
-    <br>
-    <br>
+.rettangolo{
+ border: 1px solid white;
+ background-color: black;
+ height:300px;
+ width:auto;
+  
+  
+}
 
   
-
-<br>
-
-   <div id="box10" class="container mt-2">
-          <h2> DIPARTIMENTO ARTI VISIVE </h2>
-   
-          <div class="rettangolo" class="container mt-1">
-        <div class="row">
-         <div class="col-sm-6">
-            <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-6">
-        <div class="dipartimento">
-          <br>
-         
-          <h5 class="color1"><b>PITTURA</b></h5>
-          <h5> INDIRIZZI:</h5>
-          <p>FUMETTO E VISUAL STORYTELLING
-          <p>
-          <p>PITTURA E NUOVE PRATICHE ESPRESSIVE
-          <p>
-
-        </div>
-      </div>
-           </div>   
-         </div>
-          
-           <div class="col-sm-6">
-          <div class="row">
-                   <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-6">
-                  
-        <div class="dipartimento2">
-          <br>
-           <h5><b>GRAFICA</b></h5>
-          <h5> INDIRIZZI:</h5>
-          <p>ILLUSTRAZIONE, EDITORIA E COMUNICAZIONE
-          <p>
-        
-             </div>
-            </div>
+#mappa{
+  margin:auto;
   
-         </div>
-              </div>
-               </div>
-            </div>
-           </div>
-           <br>
-      <h2> DIPARTIMENTO PROGETTAZIONE ARTI APPLICATE </h2>
-            <div class="rettangolo" class="container mt-4">
-              <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-6">
-                  
-        <div class="dipartimento8">
-          <br>
-           
-                <h5 ><b>SCENOGRAFIA</b></h5>
-          <h5> INDIRIZZI:</h5>
-          <p>AMBIENTAZIONE PER INTERNI E PROGETTAZIONE 
-DI ELEMENTI D'ARREDO<p>
-     
-       <p>
-AMBIENTAZIONE PER ESTERNI E PROGETTAZIONE DEL PAESAGGIO
-          <p>
-            
-      
-        </div>
-                </div>
-            </div>
-           </div>
-     
-           <br>
-      <h2> DIPARTIMENTO COMUNICAZIONE E DIDATTICA DELL'ARTE </h2>
-     
-            <div class="rettangolo" class="container mt-4">
-             <div class="row">
-              <div class="col-sm-6">
-                <div class="dipartimento5">
-                  <br>
-                   <h5><b>COMUNICAZIONE E VALORIZZAZIONE DEL PATRIMONIO ARTISTICO CONTEMPORANEO</b></h5>
-          <h5> INDIRIZZI:</h5>
-          <p>GESTIONE, VALORIZZAZIONE E TUTELA DEI BENI CULTURALI
-          <p>
-        
-                  
-                </div>
-               </div>
-              </div>
-     </div>
-    </div>
-  </div>
-  </div>
-     <br>
-      <br>
-    
-
-
-    <br>
-<div id="box4">
-<div class="divspazio"></div>
-  <div id="durata" class="container mt-5">
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12">
-        <h2 class="rett">
-          DURATA E TITOLI
-        </h2>
-        <h5>DURATA DEGLI STUDI E TITOLI RILASCIATI</h5>
-        <p>I Piani di studio dell'Accademia di Belle Arti sono soprattutto caratterizzati, rispetto alle tradizionali facoltà universitarie affini, dall'articolazione, con pari dignità, degli insegnamenti teorico scientifici con gli insegnamenti in laboratorio, entrambi finalizzati a concorrere alla formazione globale del professionista della comunicazione per immagini e, più in generale, in campo artistico.
-          <br>
-
-          L'ordinamento e la tipologia dei titoli di studio rilasciati dall'Accademia di Belle Arti si riferiscono a corsi di studio che, nella nuova organizzazione universitaria dell'Alta Formazione Artistica e Musicale, prevedono un percorso formativo distinto in due cicli:
-        </p>
-        <ul id="listabot">
-          <li> il primo ciclo, a cui si accede con il diploma di secondo grado, ha durata triennale; permette il conseguimento del titolo di primo livello</li>
-          <li> il secondo ciclo - biennio specialistico - consente agli studenti in possesso del titolo di primo livello o laurea con titolo affine, di completare gli studi per il conseguimento del titolo di secondo livello
-          </li>
-        </ul>
-        <p>Gli insegnamenti di tutti gli indirizzi hanno alcune caratteristiche comuni: sono articolati in laboratori sperimentali, che caratterizzano il percorso in Accademia, tesi a sviluppare la creatività individuale, ed in corsi teorici/critici, propri delle facoltà universitarie, che approfondiscono i fondamenti storici e teorici dell'arte, della televisione, del cinema, con attenzione verso i campi della sociologia, dell'economia, dell'estetica e della storia e filosofia delle arti.
-          <br>
-          Successivamente al conseguimento del titolo di studio di secondo livello, i corsi di perfezionamento (dottorato di ricerca e master) concludono il percorso scolastico.
-        </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-<br>
-<br>
-<br>
-
-<div id="box4">
-  <div class="divspazio"></div>
-  <div id="borse" class="container mt-5">
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12">
-        <h2 class="rett">
-          BORSE DI STUDIO
-        </h2>
-        <h5>BORSE DI STUDIO ED ALTRE PROVVIDENZE</h5>
-        <p>Gli studenti iscritti a questa Accademia beneficiano dei contributi e dei servizi offerti agli studenti universitari previsti dalla normativa e gestiti dall'Ente regionale per il diritto allo studio universitario (borse di studio, ristorazione, servizi abitativi ecc.) secondo le istruzioni indicate sulle guide regionali.
-          <br>
-          Per maggiori informazioni visitate il sito:<a class=" info" href="https://www.edisu.piemonte.it/"> www.edisu.piemonte.it</a>
-        <p>
-      </div>
-      </div>
-    </div>
-  </div>
-<br>
-<br>
-<br>
-<div id="box4">
-  <div class="divspazio"></div>
-  <div id="contattibox" class="container mt-5">
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12">
-        <div class="faq active">
-          <h2 id="solidcontatti" class="rett">
-            CONTATTI
-          </h2>
-          <div class="faq-text">
-            <p> <span class="spancontatti">Mail:</span> accademia@acmenovara.it</p>
-            <p> <span class="spancontatti">Numero Segreteria:</span> +390321627101</p>
-          </div>
-      
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<br>
-<br>
-<br>
-<br>
-
-
-    <div id="mappa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.8488164637347!2d8.61369101555709!3d45.452702579100745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47865a2456688117%3A0x165982cede36d96!2sAcme%20-%20Accademia%20di%20Belle%20Arti!5e0!3m2!1sit!2sit!4v1654513960343!5m2!1sit!2sit"width="100%" height="600" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-<div onclick="scrollToTop()" class="top">
-    <img id="toparrow" alt="scrolltoparrow" src="immagini/top-arrow.jpeg">
-  </div>
-
-  <div id="cookiewindow">
-    <div id="innercookie" class="col-sm-12 col-md-12 col-lg-12">
-      <b id="perchiudere" onclick="hideCookie()">X</b>
-      <h6>
-        QUESTO SITO WEB UTILIZZA COOKIE</h6>
-      <p>
-        Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazione.
-        Utilizzando il nostro sito web acconsenti a tutti i cookie in conformità con la nostra policy per i cookie.</p>
-    </div>
-  </div>
-
-
-  <div id="bottoncino" onclick="showCookie()">
-    <svg id="icon" viewBox="0 0 512 512" width="100">
-  <path d="M510.37 254.79l-12.08-76.26a132.493 132.493 0 0 0-37.16-72.95l-54.76-54.75c-19.73-19.72-45.18-32.7-72.71-37.05l-76.7-12.15c-27.51-4.36-55.69.11-80.52 12.76L107.32 49.6a132.25 132.25 0 0 0-57.79 57.8l-35.1 68.88a132.602 132.602 0 0 0-12.82 80.94l12.08 76.27a132.493 132.493 0 0 0 37.16 72.95l54.76 54.75a132.087 132.087 0 0 0 72.71 37.05l76.7 12.14c27.51 4.36 55.69-.11 80.52-12.75l69.12-35.21a132.302 132.302 0 0 0 57.79-57.8l35.1-68.87c12.71-24.96 17.2-53.3 12.82-80.96zM176 368c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm32-160c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm160 128c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32z">
-</svg>
-  </div>
-   
-    
- 
-   <footer>
-    <div class="footer">
-      <br>
-     
-      <p class="nomargin">© Sella srl - PI 01176320032 <br> Privacy Policy (ita eng 隐私政策) | Cookie Policy (ita eng 政策) <br>
-        ACME Accademia di Belle Arti Europea dei Media <br>
-        Address / 地址 Novara (Italy), via C. Porta 25
-        Tel. / 电话 (+39) 0321.627101 / 628381 - Fax / 传真 (+39) 0321.35400 <br>
-        accademia@acmenovara.it
-      </p>
-    </div>
-  </footer>
-    
   
+}
 
 
-             
-                
-             
-  
-      
- 
-
-
-        
- 
-
-      
-         
-</body>
-</html>
-
-
-
+.footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 50px;
+  max-width: 2000px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+  height:150px;
+}
+.dipartimento8{
+   padding-top: 3%;
+  min-height: 100%;
+  text-align: center;
+  background-color:#FFC400;
+  border-radius: 20px;
+  width:1260px;
+  height:200px;
+  margin-top:30px;
+  margin-left:38px;
+}
